@@ -1,0 +1,76 @@
+/* Navbar */
+@media screen and (min-width: 773px) {
+    .navbar {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Responsif Design untuk mobile */
+@media screen and (max-width: 772px) {
+    #carouselExampleControls {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .navbar {
+        padding: 0 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .row {
+        gap: 20px;
+    }
+}
+
+/* Menengahkan Konten Ulasan Produk */
+.d-flex.justify-content-center {
+    display: flex;
+    justify-content: center;
+    /* Horizontal center */
+    align-items: center;
+    /* Vertical center */
+    margin: 20px 0;
+    /* Menambahkan margin antar ulasan */
+}
+
+/* Grid Card Produk */
+.card {
+    width: 100%;
+    max-width: 300px;
+    /* Menyesuaikan ukuran card */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
