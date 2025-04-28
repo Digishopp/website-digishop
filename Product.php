@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produk</title>
+  <!-- CSS ONLY -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="produk.css">
+</head>
+
+<body>
+  <!-- ini navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid py-3">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse fw-bold" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="awal.php">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Product.php">Produk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AboutUs.php">Ulasan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.php">Keluar</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Produk Section -->
+  <div class="container py-5">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Produk PC -->
+      <div class="col">
+        <div class="card">
+          <img src="assetsProduk/produk pc.jpg" class="card-img-top" alt="..." style="margin-top: 60px;">
+          <div class="card-body">
+            <h5 class="card-title" style="margin-top: 43px;">PC ROG RTX 4090 TI</h5>
+            <p class="card-text">NVIDIA GeForce RTX 4090 Ti VRAM: 24GB GDDR6X, Core Clock: ~2.2 GHz (bisa overclock
+              lebih tinggi), CUDA Cores: Sekitar 16,384, Fitur: DLSS 3.0, ray tracing, dan dukungan resolusi 8K,
+              Konektivitas: HDMI 2.1 dan DisplayPort 1.4a.</p>
+            <h5>Rp.35.000.000,00</h5>
+            <a href="Pembayaran.html" class="btn btn-primary">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produk Keyboard -->
+      <div class="col">
+        <div class="card">
+          <img src="assetsProduk/produk keybaord.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">GAMEN TITAN</h5>
+            <p class="card-text">Menggunakan Blue Switch yang memberikan tactile feedback dan suara klik yang khas.
+              Cocok untuk yang suka sensasi mekanik yang jelas. Ukuran Penuh (Full-size): Memiliki 104 tombol termasuk
+              numpad, Layout Standar QWERTY, Backlight.</p>
+            <h5>Rp.500.000,00</h5>
+            <a href="Pembayaran.html" class="btn btn-primary">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produk Laptop -->
+      <div class="col">
+        <div class="card">
+          <img src="assetsProduk/produk laptop.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="margin-top: 30px;">ASUS TUF A15</h5>
+            <p class="card-text">NVIDIA GeForce RTX 4050 dengan 6GB VRAM GDDR6, Mendukung teknologi Ray Tracing dan DLSS
+              (Deep Learning Super Sampling). Cocok untuk gaming 1080p dan beberapa game di resolusi lebih tinggi pada
+              pengaturan medium hingga high.</p>
+            <h5>Rp.14.000.000,00</h5>
+            <a href="Pembayaran.html" class="btn btn-primary">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produk RTX -->
+      <div class="col">
+        <div class="card">
+          <img src="assetsProduk/Produk RTX.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">RTX 4070 SUPER</h5>
+            <p class="card-text">GPU VRAM: 12GB GDDR6X, GPU Boost Clock: Sekitar 2.5 GHz, CUDA Cores: Sekitar 7,680
+              cores, Antarmuka Memori: 192-bit, TDP: Sekitar 250W hingga 300W.</p>
+            <h5 style="margin-top: 40px;">Rp.105.677.000,00</h5>
+            <a href="Pembayaran.html" class="btn btn-primary">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produk Mouse -->
+      <div class="col">
+        <div class="card">
+          <img src="assetsProduk/mouse2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Logitech</h5>
+            <p class="card-text">Desain ergonomis, nyaman untuk penggunaan lama, Sensor Optical atau Laser, DPI
+              1000–25.600 DPI, Konektivitas USB kabel, Bluetooth, atau wireless dengan dongle USB.</p>
+            <h5>Rp.108.000,00</h5>
+            <a href="Pembayaran.html" class="btn btn-primary">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+      <!-- Produk Cooling Pad -->
+      <div class="col">
+        <div class="card">
+          <img src="assetsProduk/coolingPad.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">NotePal X-Slim II</h5>
+            <p class="card-text">Model: R9-NBC-XS2K-GP, Warna: Hitam, Material: Plastik, mesh logam, dan karet, Dimensi:
+              350 x 249 x 44 mm, Berat: 530 gram, Kompatibilitas: Laptop hingga ukuran 15,6 inci.</p>
+            <h5>Rp.409.100,00</h5>
+            <a href="Pembayaran.html" class="btn btn-primary">Beli Sekarang</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Produk Section -->
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
