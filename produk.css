@@ -1,0 +1,29 @@
+/* Navbar */
+@media screen and (min-width: 773px) {
+    .navbar {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+/* Produk Card dengan Shadow */
+.card {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Menambahkan efek bayangan */
+    transition: box-shadow 0.3s ease-in-out;
+    /* Efek transisi saat hover */
+}
+
+/* Efek saat card di-hover */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Bayangan lebih besar saat hover */
+}
+
+/* Styling untuk Card Body */
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
